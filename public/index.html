@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Assistente de Idiomas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div id="chat-window" class="chat-box">
+        <!-- Mais mensagens vão aparecer aqui -->
+      </div>
+      <div class="input-container">
+        <form id="chat-form" class="chat-form">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Digite sua mensagem..."
+            autocomplete="off"
+            required
+          />
+          <button id="send-button" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
